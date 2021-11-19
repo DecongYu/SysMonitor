@@ -84,7 +84,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 .card.status {
   margin-bottom: 10px;
 }
@@ -98,12 +98,12 @@ export default {
   padding: 15px 20px;
   box-shadow: 0 0 3px 1px rgba(163,163,163,0.30);
   -webkit-box-shadow: 0 0 3px 1px rgba(163,163,163,0.30);
-  font-family: Montserrat;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 300;
 }
 .incidents > .incident_item {
   margin-bottom: 30px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 .incidents > .incident_item:last-child {
   margin-bottom: 10px;
@@ -112,7 +112,7 @@ export default {
   margin-bottom: 30px;
 }
 .calendar {
-  font-family: Montserrat;
+  font-family: cursive;
   font-weight: 300;
   width: 700px;
   margin: 30px auto 0px;

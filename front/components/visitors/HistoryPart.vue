@@ -74,7 +74,7 @@ export default {
 .green-color { color: #2EE779; }
 .orange-color { color: #f3b34c; }
 .subtext {
-  color: lightgrey;
+  color: rgb(143, 143, 143);
   display: inline-block;
   position: relative;
   left: 10px;

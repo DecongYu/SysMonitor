@@ -72,7 +72,6 @@ export default {
   border-bottom-right-radius: 10px;
   background-color: white;
   box-shadow: 0 0 3px 1px rgba(163,163,163,0.30);
-  
   -webkit-box-shadow: 0 0 3px 1px rgba(163,163,163,0.30);
   max-width: 700px;
 }
@@ -114,7 +113,7 @@ button:focus, .input-field:focus {outline:0;}
   margin-top: 7px;
 }
 .subscribe-button {
-  padding: 5px10px7px;
+  padding: 5px 10px 7px;
   border: 0px;
   background-color: #6072b5;
   color: white;
