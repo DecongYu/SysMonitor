@@ -11,20 +11,15 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 from pathlib import Path
-import os, json
-
-with open('./param_config.json') as jsonfile:
-    config = json.load(jsonfile)
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = config['SECRET_KEY']
+SECRET_KEY = "django-insecure-g&ka@^rzpd*x$s9w@&v6d#t&&6&x!&07f-zn(jsl_952ma8t!m"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
