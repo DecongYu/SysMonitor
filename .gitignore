@@ -92,3 +92,4 @@ sw.*
 # Python
 *.pyc
 
+param_config.json
