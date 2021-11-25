@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # apps
     'users',
+    'incidents',
+    'channels',
 ]
 
 MIDDLEWARE = [
@@ -70,7 +72,17 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'back.wsgi.application'
+ASGI_APPLICATION = 'back.asgi.application'
 
+# channels-redis layer connection
+CHANNEL_LAYERS = {
+    'default':{
+        'BACKEND': 'channels_redis.RedisChannelLayer',
+        'CONFIG': {
+            "hosts": [('redis', 6379)],
+        }
+    }
+}
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
