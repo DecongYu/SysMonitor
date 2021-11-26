@@ -91,5 +91,5 @@ sw.*
 
 # Python
 *.pyc
-
-param_config.json
+__pycache__
+.env
