@@ -92,4 +92,3 @@ sw.*
 # python compile files
 __pycache__
 *.pyc
-.env
