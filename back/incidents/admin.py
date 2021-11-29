@@ -1,3 +1,11 @@
 from django.contrib import admin
+from .models import Site, Uptime, Update, Incident
 
-# Register your models here.
+
+
+class SiteAdmin(Site):
+    fieldsets = (
+        (None, {'fields': ('title', 'url')}),
+    )
+
+admin.site.register(SiteAdmin, Uptime, Update, Incident)
