@@ -22,10 +22,15 @@ export default {
   },
   computed: {
     message () {
-      if (this.status === 'up') { return 'All is good'
-      } else if (this.status === 'down') { return 'We are having issues'
-      } else if (this.message === 'issues') { return 'You might notice some inconvience'
-      } else { return 'Invalid' }
+      if (this.status === 'up') {
+        return 'All is good'
+      } else if (this.status === 'down') {
+        return 'We are having issues'
+      } else if (this.message === 'issues') {
+        return 'You might notice some inconvience'
+      } else {
+        return 'Invalid'
+      }
     }
   }
 }
